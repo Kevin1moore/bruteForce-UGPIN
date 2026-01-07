@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-STUDENT_ID   = "10983384"
+STUDENT_ID   = ""
 LOGIN_AS     = "student"
 BASE         = "https://sts.ug.edu.gh/services/"   
 LOGIN_URL    = urljoin(BASE, "")                      # login page lives at BASE
